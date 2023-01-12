@@ -4,4 +4,12 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Shared\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NG_React_JS_Att.DAL\NG_React_JS_Att.DAL.csproj" />
+  </ItemGroup>
+
 </Project>
